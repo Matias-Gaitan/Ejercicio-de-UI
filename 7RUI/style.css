@@ -1,0 +1,81 @@
+body {
+  font-family: 'Inter', Arial, sans-serif;
+  background: #f4f4f9;
+  margin: 20px;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.regla {
+  background: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.ejemplo {
+  margin-top: 15px;
+  padding: 15px;
+  border: 1px dashed #ccc;
+  background: #fafafa;
+  text-align: center;
+}
+
+.ejemplo img {
+  max-width: 100%;
+  border-radius: 6px;
+}
+
+/* Regla 1: sombra */
+.btn-shadow {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  background: #0078d7;
+  color: #fff;
+  box-shadow: 0 6px 10px rgba(0,0,0,0.25);
+}
+
+/* Regla 3: espacio en blanco */
+.spaced input, .spaced button {
+  padding: 15px;
+  margin: 20px 0;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.spaced button {
+  background: #0078d7;
+  color: #fff;
+  border: none;
+}
+
+/* Regla 4: overlay */
+.overlay {
+  position: relative;
+  color: #fff;
+}
+.overlay img {
+  width: 100%;
+  border-radius: 6px;
+}
+.overlay span {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background: rgba(0,0,0,0.5);
+  padding: 10px;
+  border-radius: 4px;
+}
+
+/* Regla 6: tipografía */
+.good-font {
+  font-family: 'Inter', Arial, sans-serif;
+  font-size: 18px;
+}
